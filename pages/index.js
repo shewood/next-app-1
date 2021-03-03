@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { blogPosts } from "../lib/data";
+import { Navbar } from '../components/Navbar';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+    
 
       <main>
         <h1>this is my blog</h1>
