@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { blogPosts } from "../lib/data";
-import { CardItem } from "../components/CardItem";
+import { CardItem } from "../components/cardItem";
 
 export default function Home() {
   return (
