@@ -1,23 +1,35 @@
 import Link from "next/link";
+import Image from 'next/image'
 
 
 export const Navbar = () => {
     return (
-      
-        <nav className='flex items-center flex-wrap bg-gray-500 p-5 '>
-                 <ul>
-        <li>
+      <div >
+   <nav className=' items-center flex-wrap  bg-gray-500 p-5 '>
+                 <ul className='flex justify-between px-3'>
+        <li className=''>
           <Link href="/">
-            <a>Home</a>
+            <a className='max-w-xs'>
+            <Image className='max-w-xs'
+        src="/home.svg"
+        alt="home"
+        width={40}
+        height={40}
+      />
+
+            </a>
           </Link>
         </li>
-        <li>
+ 
+        <li >
           <Link href="/about">
-            <a>About</a>
+            <a className='text-white font-bold tracking-wide'>About</a>
           </Link>
         </li>
       </ul>
         </nav>
+      </div>
+     
      
     );
   };

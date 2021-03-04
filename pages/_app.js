@@ -4,13 +4,17 @@ import { Layout } from '../components/Layout';
 
 function MyApp({ Component, pageProps }) {
   return (
+<div className='mx-auto w-9/12 bg-gray-100'>
+<Layout>
 
-  <Layout>
+<div >
+<Component {...pageProps} />
+</div>
 
-   
+ 
+</Layout>
+</div>
 
-    <Component {...pageProps} />
-  </Layout>
   );
 }
 
