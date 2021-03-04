@@ -9,7 +9,7 @@ export const Navbar = () => {
                  <ul className='flex justify-between px-3'>
         <li className=''>
           <Link href="/">
-            <a className='max-w-xs'>
+            <a className='max-w-xs' data-cy='home-icon'>
             <Image className='max-w-xs'
         src="/home.svg"
         alt="home"
@@ -23,7 +23,7 @@ export const Navbar = () => {
  
         <li >
           <Link href="/about">
-            <a className='text-white font-bold tracking-wide'>About</a>
+            <a className='text-white font-bold tracking-wide'  data-cy='about-nav-link'>About</a>
           </Link>
         </li>
       </ul>
