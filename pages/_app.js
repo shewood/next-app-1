@@ -4,7 +4,7 @@ import { Layout } from '../components/Layout';
 
 function MyApp({ Component, pageProps }) {
   return (
-<div className='mx-auto w-9/12 bg-gray-100'>
+<div className='mx-auto w-9/12'>
 <Layout>
 
 <div >
