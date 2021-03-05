@@ -3,6 +3,7 @@ import Link from "next/link";
 import { blogPosts } from "../lib/data";
 import { CardItem } from "../components/carditem";
 import Image from "next/image";
+import { Layout } from "../components/layout";
 
 export default function Home() {
   return (
