@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 import { blogPosts } from "../lib/data";
-import { CardItem } from "../components/carditem";
+import { CardItem } from "../components/cardItem";
 import Image from "next/image";
 import { Layout } from "../components/layout";
 

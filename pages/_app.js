@@ -1,7 +1,7 @@
 import Link from "next/link";
 import "../styles/globals.css";
 import { Layout } from "../components/layout";
-import { CardItem } from "../components/carditem";
+import { CardItem } from "../components/cardItem";
 
 function MyApp({ Component, pageProps }) {
   return (
