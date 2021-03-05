@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Layout } from "../components/layout";
+import { CardItem } from "../components/carditem";
 
 export default function About() {
   return (
